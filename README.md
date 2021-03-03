@@ -15,4 +15,4 @@ Liblary yang digunakan ->
     
  Task yang belum terlaksana -> 
  
-  Penggunaan Dagger untuk dependency injection dikarenakan jarang menggunakannya sekarang saya menggunakan kotlin 
+  Penggunaan Dagger untuk dependency injection dikarenakan jarang menggunakannya sekarang saya menggunakan 'kotlin-android-extensions' 
