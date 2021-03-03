@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.wisnu.tecnicaltes_mvvm.R
 import kotlinx.android.synthetic.main.activity_detail.*
+import java.text.SimpleDateFormat
 
 class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +24,9 @@ class DetailActivity : AppCompatActivity() {
             .into(ivGambar)
         tvTitle.text = title
         tvSumber.text = sumber
-        tvTanggal.text = tanggal
+        val newDate: String = modifyDateLayout(tanggal.toString())
+
+        tvTanggal.text = newDate
         tvDesc.text = desc
 
         //actionbar
@@ -36,7 +39,10 @@ class DetailActivity : AppCompatActivity() {
 
 
     }
-
+    private fun modifyDateLayout(inputDate: String): String {
+        val date = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssXXX").parse(inputDate)
+        return SimpleDateFormat("EEEE, dd MMM yyyy HH:mm a").format(date)
+    }
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

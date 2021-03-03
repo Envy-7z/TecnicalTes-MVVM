@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.wisnu.tecnicaltes_mvvm.R
-import com.wisnu.tecnicaltes_mvvm.adapter.MainAdaper
+import com.wisnu.tecnicaltes_mvvm.view.adapter.MainAdaper
 import com.wisnu.tecnicaltes_mvvm.model.MainResponse
 import com.wisnu.tecnicaltes_mvvm.viewModel.ViewModelMainActivity
 import kotlinx.android.synthetic.main.activity_main.*

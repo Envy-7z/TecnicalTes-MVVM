@@ -1,4 +1,4 @@
-package com.wisnu.tecnicaltes_mvvm.adapter
+package com.wisnu.tecnicaltes_mvvm.view.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -14,7 +14,6 @@ import com.wisnu.tecnicaltes_mvvm.view.DetailActivity
 import kotlinx.android.synthetic.main.item_main.view.*
 import java.text.ParseException
 import java.text.SimpleDateFormat
-import java.util.*
 import kotlin.collections.ArrayList
 
 class MainAdaper(rv: RecyclerView, context: Context, mList: List<MainResponse.Article>) :
