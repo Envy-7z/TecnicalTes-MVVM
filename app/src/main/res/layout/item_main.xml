@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/cv"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="12dp"
+        android:id="@+id/view2"
+        app:cardCornerRadius="15dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#AAAAAA"
+            android:id="@+id/ivGambar"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Testing"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#5A5A5A"
+            android:fontFamily="@font/rubik"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvSumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Testing"
+            android:textSize="10sp"
+            android:textColor="#AAAAAA"
+            android:fontFamily="@font/rubik"/>
+        <TextView
+            android:id="@+id/tvTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Testing"
+            android:textSize="10sp"
+            android:textColor="#AAAAAA"
+            android:fontFamily="@font/rubik"/>
+        <TextView
+            android:id="@+id/tvDesc"
+            android:maxLines="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Testing"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="#5A5A5A"
+            android:fontFamily="@font/rubik"/>
+
+        <TextView
+            android:id="@+id/tvNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:fontFamily="@font/rubik"
+            android:textColor="#0093DD"
+            android:text="Baca Selengkapnya..."/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
