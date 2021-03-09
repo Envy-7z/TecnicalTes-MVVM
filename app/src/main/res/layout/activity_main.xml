@@ -25,10 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:orientation="horizontal">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/logo"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -62,7 +59,7 @@
             android:textColor="#B7B7B7"
             android:fontFamily="@font/rubik"
             android:background="@mipmap/rectangle"
-            android:hint="Cari klinik / rumah sakit"/>
+            android:hint="Pendidikan"/>
     </LinearLayout>
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:layout_marginTop="115dp"
